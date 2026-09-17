@@ -70,7 +70,7 @@ speakers still try to play.
 
 ### Effects
 
-**24 effects**, each explained in plain words with a bar that shows how hard it
+**25 effects**, each explained in plain words with a bar that shows how hard it
 is working right now. Among them: compressor, limiter, de-esser,
 **crossfeed** and **mono bass** for headphones, and **8D rotation**, where the
 sound circles slowly around your head.
