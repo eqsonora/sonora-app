@@ -1,8 +1,11 @@
-blank_issues_enabled: true
+blank_issues_enabled: false
 contact_links:
-  - name: Report a bug inside the app
-    url: https://eqsonora.com/download
-    about: This repository has no source code. To report a bug with real diagnostics, use the feedback button inside Sonora itself.
-  - name: Ask a question or suggest a feature
-    url: https://github.com/eqsonora/sonora-app/discussions
-    about: Use Discussions for questions, ideas, and general feedback.
+  - name: Share an idea or an opinion
+    url: https://github.com/eqsonora/sonora-app/discussions/categories/ideas
+    about: Features you miss, things you would change, what you think of Sonora. Ideas live in Discussions.
+  - name: Ask a question
+    url: https://github.com/eqsonora/sonora-app/discussions/categories/q-a
+    about: How something works, whether Sonora can do something.
+  - name: Report a security problem
+    url: https://github.com/eqsonora/sonora-app/security/advisories/new
+    about: Privately, never in a public issue.

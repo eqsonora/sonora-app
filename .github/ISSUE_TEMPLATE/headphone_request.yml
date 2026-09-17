@@ -1,0 +1,23 @@
+name: Headphone request
+description: Ask for a headphone model to get its correction curve.
+labels: ["headphones"]
+body:
+  - type: input
+    id: model
+    attributes:
+      label: Brand and model
+      placeholder: "Sennheiser HD 600"
+    validations:
+      required: true
+  - type: input
+    id: variant
+    attributes:
+      label: Variant, earpads or tips, if any
+  - type: input
+    id: macname
+    attributes:
+      label: Name shown by macOS
+      description: As it appears in Sound settings, if it is a Bluetooth or USB device.
+  - type: markdown
+    attributes:
+      value: A model is added when a measurement we can trust exists for it. Until then, you can import an AutoEq file from the Headphones page.

@@ -1,0 +1,24 @@
+labels: ["idea"]
+body:
+  - type: markdown
+    attributes:
+      value: Every idea is welcome. Search first - if someone had it already, upvote and comment there.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What were you trying to do?
+      description: The situation, not the solution yet. "When my headphones connect I always switch preset by hand."
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: How you imagine it could work.
+    validations:
+      required: true
+  - type: textarea
+    id: more
+    attributes:
+      label: Anything else
+      description: Screenshots, other apps that do it well, how often you would use it.
